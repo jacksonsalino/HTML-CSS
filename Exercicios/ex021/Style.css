@@ -1,0 +1,59 @@
+*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 2px;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(138, 226, 103);
+    margin: 5px;
+    padding: 5px;
+    
+}
+section#Assuntos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    background-color: rgb(143, 243, 100);
+    padding: 2px;
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(71, 247, 247);
+    font-weight: bold;
+    margin-right: 25px;
+}
+nav > a:hover {
+    text-decoration: underline;
+
+}
+main {
+    background-color: rgb(146, 224, 252);
+    padding: 10px;
+    margin: 5px;
+}
+
+article {
+    background-color: rgb(166, 240, 240);
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px 0px;
+}
+article >aside {
+    background-color: rgb(132, 247, 161);
+}
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(138, 226, 103);
+    text-align: right;
+    padding: 0px;
+    margin: 2px;
+}
+footer > p{
+    margin: 0px;
+}
